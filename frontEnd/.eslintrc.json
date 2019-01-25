@@ -1,0 +1,22 @@
+{
+    "parser": "babel-eslint",
+    "extends": "vue",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": [0,"error", "windows"], 
+        "quotes": [1, "single"],                
+        "semi": ["error", "never"],             
+        "eqeqeq": 0,                           
+        "no-unused-vars": 0,                    
+        "space-before-function-paren": 0,       
+        "prefer-const": 0,                      
+        "no-undef": 0,                          
+        "camelcase": 0
+    }
+}
